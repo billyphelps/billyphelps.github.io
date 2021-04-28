@@ -1,0 +1,14 @@
+li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.menulink {
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.menulink:hover{
+	color: #AAA;
+	text-decoration: none;	
+}

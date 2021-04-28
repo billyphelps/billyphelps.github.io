@@ -1,0 +1,18 @@
+#header {
+	top: 0px;
+	background-color: #333;
+	position: fixed;
+	height: 50px; /* This is the height of the nav bar */
+	width: 100%;
+	z-index: 1000;
+	border-top: 50px;
+	/*opacity: 0.8;*/
+}
+
+ul.nav {
+	margin: 15px 15px; /* The alignment of the text on the navbar */
+	padding: 0px ;
+	position: absolute;
+	right: 0px;
+	height:50px;
+}

@@ -1,0 +1,42 @@
+:root{
+  --number-of-tiles: 6;
+  --tile-gap: 15px;
+  --social-padding: 2.5%;
+  --social-gap: 10%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  background: radial-gradient(at top left,#fdd 10%, #e88);;
+}
+
+.container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, calc((100% - ( var(--number-of-tiles) * var(--tile-gap) ))/ var(--number-of-tiles) )); */
+  grid-template-columns: auto auto auto auto auto auto;
+  /* grid-template-rows: repeat(auto-fit, calc((100vw - ( var(--number-of-tiles) * var(--tile-gap) ))/ var(--number-of-tiles) )); */
+  /* grid-template-rows: auto; */
+  grid-auto-flow: dense;
+  grid-gap: var(--tile-gap);
+}
